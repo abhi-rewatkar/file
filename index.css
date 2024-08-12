@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.root{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: auto;
+    width: 100%;
+    padding: 50px;
+    row-gap: 40px;
+}
+
+.card{
+    height: auto;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    row-gap: 10px;
+}
+
+.btn{
+    padding:8px 5px;
+}
